@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:listView="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:storymaker="clr-namespace:StoryMaker"
+             mc:Ignorable="d"
+             BackgroundColor="LightPink"
+             x:Class="StoryMaker.MainPage">
+
+    <StackLayout>
+        <Frame>
+            <Label Text="StickerTime Storymaker" FontSize="Large" TextColor="Gray" FontAttributes="Bold"/>
+        </Frame>
+        <Frame BackgroundColor="White" Padding="0" CornerRadius="20">
+
+            <Image Source="storytelling.png" />
+        </Frame>
+        <Button Text=" Start your Story" BackgroundColor="HotPink" CornerRadius="30" Clicked="StoryStartButton_Clicked">
+            
+        </Button>
+        
+    </StackLayout>
+
+</ContentPage>
